@@ -7,17 +7,18 @@
 let num = Math.floor(Math.random() * 20) + 1; //1-19の適当な整数num
 
 if(num % 3 == 0 && num % 5 == 0) {
-  console.log(num); //ランダムな整数出力確認用
+  
   console.log('3と5の倍数です');
 }
 else if (num % 3 == 0) {
-  console.log(num); //ランダムな整数出力確認用
+  
   console.log('3の倍数です');
 }
 else if(num % 5 == 0) {
-  console.log(num); //ランダムな整数出力確認用
+  
   console.log('5の倍数です');
 }
 else {
   console.log(num);
 }
+
